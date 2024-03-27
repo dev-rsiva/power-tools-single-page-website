@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&family=Rubik:wght@300;400&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navitem {
+  position: relative;
+  cursor: pointer;
+}
+
+.navitem:hover {
+  color: white;
+}
+
+.navitem::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px; /* Adjust the thickness of the line */
+  background-color: white; /* Change the color of the line */
+  transition: width 0.3s ease; /* Add a smooth transition effect */
+}
+
+.navitem:hover::before {
+  color: white;
+  width: 100%;
+}

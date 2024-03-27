@@ -1,0 +1,91 @@
+User-agent: *
+Disallow: /cgi-bin/
+Disallow: /page/
+Disallow: /blog/page/
+Disallow: /amp/page/
+Disallow: /ao/
+Disallow: /recommended/
+Disallow: /trackh
+Disallow: /1Std+Shift+D
+Disallow: /xmlrpc.php
+Disallow: /search?
+Disallow: /2p=
+Disallow: *?replytocom
+Disallow: */trackback
+Disallow: */feed
+Disallow: */comments
+Disallow: /tag/
+Disallow: /author/
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: SemrushBot-SA
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: NinjaBot
+Allow: /
+
+User-agent: Mediapartners-Google
+Allow:
+
+User-agent: Googlebot-Image
+Allow: /wp-content/uploads/
+
+
+
+
+
+
+
+
+
+
+
+
+User-agent: *
+Disallow: /admin/
+Disallow: /secret-page/
+Disallow: /private-data/
+Disallow: /internal-scripts/
+Disallow: /analytics/
+Disallow: /tracking-scripts/
+Disallow: /api/
+Disallow: /contact-form-handler/
+Disallow: /thank-you-page/
+Disallow: /testimonials/
+Disallow: /customer-reviews/
+Disallow: /images/private/
+Disallow: /images/hidden/
+Disallow: /hidden-resources/
+Disallow: /temp/
+Disallow: /tmp/
+Disallow: /dev/
+Disallow: /backend/
+Disallow: /server/
+Disallow: /config/
+Disallow: /logs/
+Disallow: /backup/
+Disallow: /uploads/
+Disallow: /download/
+Disallow: /print/
+Disallow: /print-preview/
+Disallow: /search-results/
+
+# Block specific bots
+User-agent: BadBot
+Disallow: /
+
+# Allow all bots to access these resources
+User-agent: Googlebot
+Allow: /images/public/
+Allow: /public-resources/
+Allow: /assets/
+
+User-agent: Bingbot
+Allow: /images/public/
+Allow: /public-resources/
+Allow: /assets/
